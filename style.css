@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+
+.container{
+    padding-top: 10%;
+    background-color: transparent;
+}
+
+.container hr {
+    margin: 0;
+    width: 60%;
+    border: 0.1em solid #909090;
+}
+
+.emoji-div {
+    margin-top: -5.3%;
+    text-align: center;
+}
+
+.container img {
+    width: 10%;
+    transition: transform .2s;
+}
+
+.container .emoji-img:hover {
+    cursor: pointer;
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+    -webkit-filter: drop-shadow(2px 2px 2px #909090);
+    filter: drop-shadow(2px 2px 2px #909090);
+}
+
+img {
+    background:radial-gradient(circle at center, white 68% , transparent 68%);
+}
+
+.div-inline{
+    padding: 0.5%;
+    display: inline;
+    margin: 0 1.5%;
+}
+
+.text-emoji{
+    font-weight: bold;
+    font-family: 'Cabin', sans-serif;
+    color:#909090;
+    font-size: 1vw;
+    animation:animatezoom 0.6s;
+}
+
+@keyframes animatezoom{
+    from{transform:scale(0)} 
+    to{transform:scale(1)}
+}
+
